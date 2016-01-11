@@ -1,0 +1,44 @@
+{
+  "name": "grunt-sh-i18n-props",
+  "description": "Grunt plugin for compiling multiple *.properties files into a single JSON file.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/StubHubLabs/sh-i18n-props",
+  "author": "yongbchen <yongbchen@ebay.com>, mjasso <mjasso@stubhub.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StubHubLabs/sh-i18n-props.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "properties-parser": "~0.2.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-nodeunit": "~0.3.3",
+    "grunt": "~0.4.x"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.x"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
+}
